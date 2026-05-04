@@ -15,7 +15,7 @@ export default function JobCard({ job }) {
   const remainingCount = allKeywords.length - 3;
 
   return (
-    <div className="p-4 border rounded-xl shadow-sm hover:shadow-md cursor-pointer transition flex flex-col gap-3 min-h-60 bg-white">
+    <div className="p-4 border rounded-xl shadow-sm hover:shadow-md cursor-pointer transition flex flex-col gap-3 w-full sm:min-h-60 bg-white">
       <div className="w-full p-3 bg-stone-200 rounded-xl relative">
 
         <div className="w-10 h-10 border border-stone-400 rounded-xl absolute right-3 top-3 flex items-center justify-center bg-white/50 z-10">
@@ -64,7 +64,7 @@ export default function JobCard({ job }) {
       </div>
 
 
-      <p className="text-gray-800 font-bold truncate">
+      <p className="text-gray-800 font-bold sm:truncate">
         {job.role}
       </p>
 

@@ -22,7 +22,7 @@ const uniqueKeywords = [...new Set(allKeywords)].sort();
 if (!filters) return null;
 
   return (
-    <div className="h-screen w-full flex flex-col bg-stone-200 rounded-xl p-3">
+    <div className="h-screen w-full flex flex-col bg-stone-200 rounded-xl pt-10 sm:pt-0">
       <div className="w-full border-b border-stone-400 py-2 flex justify-between">
         <div className="flex items-center gap-2">
           <CiFilter className="text-xl" />

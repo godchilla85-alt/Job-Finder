@@ -97,7 +97,7 @@ const matchesKeywords = activeKeywords.length === 0 ||
   console.log(selectedJob);
 
   return (
-    <div className="p-6 relative">
+    <div className="sm:p-6 pt-10 relative">
 
    
      
@@ -175,7 +175,7 @@ const matchesKeywords = activeKeywords.length === 0 ||
                     <h3 className="text-cyan-600 font-medium text-xl">
                       {selectedJob.company_name}
                     </h3>
-                    <div className="w-full h-10 flex gap-5 mt-2">
+                    <div className="w-full flex flex-wrap gap-x-5 mt-2">
                       <div className="flex text-sm text-stone-600">
                         <span className="mr-1 shrink-0 font-medium text-lg pt-1.5">
                           <MdOutlineLocationOn />
